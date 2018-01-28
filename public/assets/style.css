@@ -1,0 +1,31 @@
+body{
+    font-family: verdana; 
+    color: #484856; 
+    padding: 30px;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffa1a1;
+    box-shadow: 0 0 10px #ffa1a1;
+}
+
+main {
+    display: flex;
+    margin: 250px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1280px;
+}
+
+.key {
+    border: 4px solid #484856;
+    border-radius: 6px;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 10px;
+    text-align: center;
+    height: 80px;
+    width: 60px;
+    transition: all .07s;
+}

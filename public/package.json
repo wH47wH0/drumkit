@@ -1,0 +1,27 @@
+{
+    "name": "drumkit",
+    "version": "1.0.0",
+    "description": "User can play drums using the KB.",
+    "main": "app.bundle.js",
+    "scripts": {
+        "build": "./node_modules/.bin/babel app.js -o app.bundle.js"
+    },
+    "keywords": [
+        "training",
+        "practise",
+        "js30",
+        "vanillaJS"
+    ],
+    "author": "me",
+    "license": "ISC",
+    "dependencies": {
+        "db": "^1.0.6",
+        "express": "^4.16.2",
+        "mkdirp": "^0.5.1"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-stage-2": "^6.24.1"
+    }
+}
